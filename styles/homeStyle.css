@@ -1,0 +1,14 @@
+/* .logoStyle>div{
+    border-image:linear-gradient(106.4deg, rgb(255, 104, 192) 11.1%, rgb(104, 84, 249) 81.3%); ;
+    border-image-slice:1;
+} */
+
+.logoStyle > div {
+  border-color: red;
+}
+
+.diverText {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
