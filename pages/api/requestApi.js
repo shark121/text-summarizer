@@ -21,7 +21,7 @@ export default async function handler(req, res) {
       ],
     }).then(resp=>{
       console.log(resp.choices[0])
-      res.status(200).json(resp.choices[0].message.content );
+      res.status(200).json(resp.choices[0].message.content )
     })
   
   
