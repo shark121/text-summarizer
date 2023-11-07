@@ -137,7 +137,7 @@ export default function CreateAccount({ setCurrent, current, CreateAccount }) {
         Submit
       </button>
       <button className="flex" onClick={useGoogleProvider}>
-        continue with google
+        <>continue with google</>  
         <div className="h-[1.5rem] w-[1.8rem] relative">
           <Image className="object-contain mx-2" fill src={googleLogo}/>
         </div>
