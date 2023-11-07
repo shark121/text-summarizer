@@ -1,6 +1,5 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
-import { main } from "../aiConfig";
 import { OpenAI } from "openai";
 
 export default async function handler(req, res) {

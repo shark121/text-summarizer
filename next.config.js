@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  pageExtensions:["/^((?!requestApi.api.js).)*$/gm"],
+  //  pageExtensions:[]
 
 
 }

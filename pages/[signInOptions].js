@@ -4,9 +4,9 @@ import {
   GoogleAuthProvider,
 } from "firebase/auth";
 
-import { database } from "./firebaseConfig";
+import { database } from "../firebase.config";
 import { useEffect, useState } from "react";
-import { app } from "./firebaseConfig";
+import { app } from "../firebase.config";
 import { useRouter } from "next/router";
 import { Comfortaa } from "next/font/google";
 import CreateAccount from "@/components/createAccount";

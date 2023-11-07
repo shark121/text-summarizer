@@ -1,4 +1,3 @@
-import LogoCSS from "@/public/images/logo";
 import { motion as m } from "framer-motion";
 import logoNoBg from "../public/images/logo-no-background.png";
 import Image from "next/image";

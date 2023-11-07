@@ -1,7 +1,7 @@
 import { Comfortaa } from "next/font/google";
 import { useEffect, useState } from "react";
 import { motion as m } from "framer-motion";
-import { app } from "@/pages/firebaseConfig";
+import { app } from "@/firebase.config";
 import {
   getAuth,
   signInWithEmailAndPassword,

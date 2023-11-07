@@ -1,4 +1,4 @@
-import { database, app } from "./firebaseConfig";
+import { database, app } from "../firebase.config";
 import { onAuthStateChanged, getAuth } from "firebase/auth";
 import { getDocs, collection } from "firebase/firestore";
 import { useState, useEffect, useLayoutEffect } from "react";

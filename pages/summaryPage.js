@@ -1,9 +1,8 @@
 import { Comfortaa } from "next/font/google";
 import { useEffect, useState } from "react";
-// import { main } from "./aiConfig";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { addDoc, doc, collection, getDocs, getDoc } from "firebase/firestore";
-import { database, auth } from "./firebaseConfig";
+import { database, auth } from "../firebase.config";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import logoImg from "../public/images/logo-no-background.png";
@@ -169,7 +168,7 @@ export default function SummaryPage() {
   async function requestFunc() {
     setShouldAnimate(true);
 
-    await fetch("./api/requestApi.api", {
+    await fetch("./api/requestApi", {
       method: "POST",
       body: JSON.stringify(`summarize the text "${prompt}"`),
       headers: {
