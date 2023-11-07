@@ -169,7 +169,7 @@ export default function SummaryPage() {
   async function requestFunc() {
     setShouldAnimate(true);
 
-    await fetch("./api/requestApi", {
+    await fetch("./api/requestApi.api", {
       method: "POST",
       body: JSON.stringify(`summarize the text "${prompt}"`),
       headers: {

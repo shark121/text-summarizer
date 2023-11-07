@@ -82,7 +82,7 @@ export default function History({ dataObject }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   let array = [];
 
   await getDocs(
